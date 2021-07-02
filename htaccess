@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST}  !^www\.milkyayurspa\.com$ [NC]
+RewriteRule ^(.*) http://www.milkyayurspa.com/$1 [L,R]

@@ -1,0 +1,688 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+    <title>BRAND NAME</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="//fonts.googleapis.com/css?family=Nunito+Sans:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i&amp;subset=latin-ext,vietnamese" rel="stylesheet">
+    <link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel="stylesheet">
+
+    <script>
+        setInterval(function() {
+            var myobj = document.getElementById("imgs");
+            myobj.remove()
+
+
+            document.getElementById("preloader").style.position = "relative";
+        }, 3000);
+    </script>
+    <style>
+        .bg-light {
+            background-color: green!important;
+        }
+        
+        .navbar-brand {}
+        
+        #preloader {
+            width: 100%;
+            height: 100%;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            z-index: 11000;
+            position: fixed;
+            display: block;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #fff;
+        }
+        
+        .loader {
+            display: block;
+            flex-wrap: wrap;
+            width: 250px;
+            height: auto;
+            -webkit-transform-style: preserve-3d;
+        }
+        
+        .loader img {
+            width: 100%;
+            height: auto;
+            border-radius: 50%;
+        }
+        
+        option {
+            padding: 10px;
+        }
+        
+        option:hover {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+
+
+
+<body>
+    <div id="preloader">
+        <div class="loader">
+            <img id="imgs" src="image/logo.jpg" alt="#" />
+        </div>
+    </div>
+    <!-- <nav>
+        <div class="menu-icon">
+            <span class="fas fa-bars"></span>
+        </div>
+        <div class="logo">
+            BRAND </div>
+        <div class="nav-items">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="#">Blogs</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Feedback</a></li>
+        </div>
+        <div class="search-icon">
+            <span class="fas fa-search"></span>
+        </div>
+        <div class="cancel-icon">
+            <span class="fas fa-times"></span>
+        </div>
+        <form action="#">
+            <input type="search" class="search-data" placeholder="Search" required>
+            <button type="submit" class="fas fa-search"></button>
+        </form>
+    </nav> -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#" style="color: white;
+            font-size: 27px; "><strong style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif">  Milky Ayur Spa </strong></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item ">
+                        <a class="nav-link active " aria-current="page " href="#home " style="color: white; ">Home</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link active " aria-current="page " href="#about" style="color: white; ">About</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link active " aria-current="page " href="#service " style="color: white; ">Service</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link active " aria-current="page " href="#gallery " style="color: white; ">Gallery</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link active " aria-current="page " href="#contact" style="color: white; ">Contact</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+
+
+
+
+
+    <section id="home">
+        <div class="bg-home">
+            <div class="container">
+                <div class="main_box ">
+                    <h1>
+                        <!-- Best Ayurveda Treatment In Trivandrum Kerala</h1>
+                    <p>Looking for an authentic Ayurveda treatment in Trivandrum Kerala? Then book an appointment Now</p> -->
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="appointment" style="background-color: #f2f2f2;">
+        <div class="container ">
+            <div class="text-center ">
+                <h2 class="head_sub">Get an appointment now</h2>
+            </div>
+
+            <div class="text-about ">
+                <p>Need a massage near you? Spafinder has special offers and packages from the best spas in your area. Find a great spa near you today via our spa listings!</p>
+
+            </div>
+            <div class="text-center ">
+                <button type="button" class="book-btn" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Get an appointment</button>
+            </div>
+            <br><br>
+        </div>
+    </section>
+    <section id="about">
+        <div class="container ">
+            <div class="text-center ">
+                <h2 class="head_sub">About </h2>
+            </div>
+            <h3 class="sub-head-big " style="margin-bottom: 57px; ">Milky Ayur Spa
+            </h3>
+            <div class="text-about ">
+                <p>Kerala Ayurvedic Massage is one of the best ayurvedic treatment in Kerala. It is a healing process used for treating various diseases since ancient times. It is effectively used to relax and rejuvenate a person. Ayurvedic Massage is done
+                    according to the constitution, age, stage of the disease, aggravated doshas, status of Agni and ama. There are various types of rejuvenation, relaxation and therapeutic Kerala Ayurveda Massage in our Ayurvedic Wellness Spa. </p>
+            </div>
+            <div class="row ">
+                <div class="col-md-6 ">
+                    <div class="about_img ">
+                        <img src="image/banner-about.jpg " alt=" ">
+                    </div>
+                </div>
+                <div class="col-md-6 ">
+                    <div class="about_condent ">
+                        <h3 class="sub-head-big " style="text-align: left; margin-bottom: 35px; ">1) What is the use of massage?</h3>
+                        <p class="text-about ">People use massage for a variety of health-related purposes, including to relieve pain, rehabilitate sports injuries, reduce stress, increase relaxation, address anxiety and depression, and aid general wellness.</p>
+
+                        <h3 class="sub-head-big " style="text-align: left; margin-bottom: 35px; ">2) What are the health benefits of massage?</h3>
+                        <p class="text-about ">reduced muscle tension. improved circulation. stimulation of the lymphatic system. reduction of stress hormones. relaxation. increased joint mobility and flexibility. improved skin tone. improved recovery of soft tissue injuries.</p>
+
+                        <h3 class="sub-head-big " style="text-align: left; margin-bottom: 35px; ">3) Is daily massage harmful?</h3>
+                        <p class="text-about ">Most massages are considered safe. Talk to your doctor before getting one if you have a serious medical condition. You may want to ask for massage therapist recommendations from your doctor so you can find someone who meets your
+                            needs.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="service">
+        <div class="container">
+            <div class="text-center">
+                <h2>Service</h2>
+            </div>
+            <div class="row ">
+
+                <div class="col-sm-6 col-md-6 col-lg-3 ">
+                    <div class="service-box ">
+                        <div class="service-img ">
+                            <img src="image/swedish massage.jpg" alt=" " class="image-fluid ">
+                        </div>
+                        <div class="service condent ">
+                            <h1 class="sub-head ">Swedish massage <br>(60 minuit)</h1>
+                            <h3 class="sub-para ">
+                                Swedish massage is one of the most commonly offered massage techniques. It's sometimes called a classic massage. The technique aims to promote relaxation by releasing muscle tension. Swedish massage is gentler than deep tissue massage and better suited
+                                for people interested in relaxation and tension relief.
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-6 col-lg-3 ">
+                    <div class="service-box ">
+                        <div class="service-img ">
+                            <img src="image/deep tissue massage.jpg" alt=" " class="image-fluid ">
+                        </div>
+                        <div class="service condent ">
+                            <h1 class="sub-head ">Deep Tissue Massage <br>(60 minuit)</h1>
+                            <h3 class="sub-para ">
+                                Deep tissue massage will work out the knots from stressed, overworked muscles and connective tissue (fascia) to alleviate immediate pain, as well as chronic joint and muscle pain. It also promotes faster healing by increasing blood flow and reducing inflammation.
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-3 ">
+                    <div class="service-box ">
+                        <div class="service-img ">
+                            <img src="image/Aromatherapy.jpg" alt=" " class="image-fluid ">
+                        </div>
+                        <div class="service condent ">
+                            <h1 class="sub-head ">Aromatherapy <br>(60 minuit)</h1>
+                            <h3 class="sub-para ">
+                                Aromatherapy is a holistic healing treatment that uses natural plant extracts to promote health and well-being. Sometimes it's called essential oil therapy. Aromatherapy uses aromatic essential oils medicinally to improve the health of the body, mind,
+                                and spirit. It enhances both physical and emotional health.
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-6 col-lg-3 ">
+                    <div class="service-box ">
+                        <div class="service-img ">
+                            <img src="image/massage4.jpg" alt=" " class="image-fluid ">
+                        </div>
+                        <div class="service condent ">
+                            <h1 class="sub-head ">Milky Signature Massage</h1>
+                            <h3 class="sub-para ">
+                                he signature is a fusion massage that seamlessly blends together various massage techniques such as Swedish, deep tissue, acupressure, and sports massage stretches. Stretches are incorporated to open up the body and relieve muscle tension.
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-3 ">
+                    <div class="service-box ">
+                        <div class="service-img ">
+                            <img src="image/Ayurvedic massage.jpg" alt=" " class="image-fluid ">
+                        </div>
+                        <div class="service condent ">
+                            <h1 class="sub-head "> Ayurvedic massage <br>(45 minuit)</h1>
+                            <h3 class="sub-para ">
+                                Ayurvedic massage is a customized treatment incorporating essential oils, typically herbal-infused, with time-honored and non-traditional strokes and kneading that suit each individual's needs.
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-6 col-lg-3 ">
+                    <div class="service-box ">
+                        <div class="service-img ">
+                            <img src="image/back neck shoulders massage.jpg" alt=" " class="image-fluid ">
+                        </div>
+                        <div class="service condent ">
+                            <h1 class="sub-head "> back neck shoulders massage</h1>
+                            <h3 class="sub-para ">
+                                Most spas offer their own take on this popular massage style, which targets the upper body and is loosely based around the technique used in Swedish massage. At around 30 to 40 minutes,
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-3 ">
+                    <div class="service-box ">
+                        <div class="service-img ">
+                            <img src="image/massage7.jpg " alt=" " class="image-fluid ">
+                        </div>
+                        <div class="service condent ">
+                            <h1 class="sub-head "> Relaxation massage</h1>
+                            <h3 class="sub-para ">
+                                Relaxation massage is a smooth, gentle, flowing style that promotes general relaxation, relieves muscular tension, plus improves circulation and range of movement. ... Your therapist will aim to relax, revive and rejuvenate you at a massage depth that
+                                does not cause discomfort.
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-6 col-lg-3 ">
+                    <div class="service-box ">
+                        <div class="service-img ">
+                            <img src="image/massage8.jpg" alt=" " class="image-fluid ">
+                        </div>
+                        <div class="service condent ">
+                            <h1 class="sub-head ">massage taping</h1>
+                            <h3 class="sub-para ">
+                                It is designed to not cause any pinching, binding, or restrictions. When applied to the skin, the tape gently lifts surrounding skin, allowing for a better flow of interstitial and lymph fluids. These fluids help remove dead cells and other waste caused
+                                by injury or a hard workout.
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="demo " style="height: 100px; "></div>
+    </section>
+
+
+    <section id="gallery">
+        <div class="container ">
+            <div class="text-center ">
+                <h2>Gallery</h2>
+            </div>
+            <div class="row ">
+
+                <div class="col-md-4 ">
+                    <div class="image-box ">
+                        <img src="image/gallery1.jpg " alt=" ">
+                    </div>
+                </div>
+                <div class="col-md-4 ">
+                    <div class="image-box ">
+                        <img src="image/gallery2.jpg " alt=" ">
+                    </div>
+                </div>
+                <div class="col-md-4 ">
+                    <div class="image-box ">
+                        <img src="image/gallery3.jpg " alt=" ">
+                    </div>
+                </div>
+                <div class="col-md-4 ">
+                    <div class="image-box ">
+                        <img src="image/gallery4.jpg " alt=" ">
+                    </div>
+                </div>
+                <div class="col-md-4 ">
+                    <div class="image-box ">
+                        <img src="image/gallery5.jpg " alt=" ">
+                    </div>
+                </div>
+                <div class="col-md-4 ">
+                    <div class="image-box ">
+                        <img src="image/gallery6.jpg " alt=" ">
+                    </div>
+                </div>
+                <div class="col-md-4 ">
+                    <div class="image-box ">
+                        <img src="image/gallery7.jpg " alt=" ">
+                    </div>
+                </div>
+                <div class="col-md-4 ">
+                    <div class="image-box ">
+                        <img src="image/gallery8.jpg " alt=" ">
+                    </div>
+                </div>
+                <div class="col-md-4 ">
+                    <div class="image-box ">
+                        <img src="image/gallery9.jpg " alt=" ">
+                    </div>
+                </div>
+                <div class="col-md-4 ">
+                    <div class="image-box ">
+                        <img src="image/gallery10.jpg " alt=" ">
+                    </div>
+                </div>
+                <div class="col-md-4 ">
+                    <div class="image-box ">
+                        <img src="image/gallery11.jpg " alt=" ">
+                    </div>
+                </div>
+                <div class="col-md-4 ">
+                    <div class="image-box ">
+                        <img src="image/gallery12.jpg " alt=" ">
+                    </div>
+                </div>
+            </div>
+            <div class="demo " style="height: 50px; "></div>
+        </div>
+    </section>
+    <section id="contact" style="background-color: #f2f2f2; ">
+        <div class="container ">
+            <div class="text-center ">
+                <h2>Contact</h2>
+            </div>
+            <div class="row ">
+                <div class="col-md-3 ">
+
+                    <ul class="address list-unstyled ">
+                        <li>
+                            <h5 class="mb-1 " style="color: green; ">Registed Office</h5>
+                        </li>
+                        <li>Near Cochin International Airport</li>
+                        <li>Airport Rd, Kochi, Kerala 683111
+                        </li>
+
+                    </ul>
+
+                </div>
+                <div class="col-md-3 ">
+                    <ul class="contact-numbers list-unstyled ">
+                        <li>
+                            <h5 class="mb-1 " style="color: green; ">Contact Numbers</h5>
+                        </li>
+                        <li>+91 8086527711</li>
+                        <ul style="display: flex;list-style-type: none;padding: 0;">
+                            <li style="margin-right: 5px;">
+                                <a href="https://wa.me/+918086527711" class="btn btn-success "><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+                                <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
+                                 </svg> </a>
+                            </li>
+                            <li>
+                                <a href="mailto:milkyayurspa@gmail.com" class="btn btn-success "><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                                <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z"/>
+                              </svg></a>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+                <div class="col-md-3 ">
+                    <ul class="emails list-unstyled ">
+                        <li>
+                            <h5 class="mb-1 " style="color: green; ">Email Id</h5>
+                        </li>
+                        <li><a href="mailto:milkyayurspa@gmail.com" style="text-decoration: none; ">milkyayurspa@gmail.com</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row ">
+                <div class="col-md-6 ">
+                    <div class="box-map ">
+
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3927.354854198203!2d76.39076394965399!3d10.151783392711595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b080882748f4a6f%3A0x30b2ebe45d968458!2sCochin%20International%20Airport!5e0!3m2!1sen!2sin!4v1624006334177!5m2!1sen!2sin"
+                            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+                <div class="col-md-6 ">
+                    <div class="box-contact ">
+                        <form class="row g-3" action="" id="submit-form" method="POST">
+                            <div class="col-md-6 ">
+                                <label for="inputEmail4 " class="form-label ">First Name</label>
+                                <input type="text " class="form-control " id="inputEmail4 ">
+                            </div>
+                            <div class="col-md-6 ">
+                                <label for="inputPassword4 " class="form-label ">Second Name</label>
+                                <input type="text " class="form-control " id="inputPassword4 ">
+                            </div>
+                            <div class="col-12 ">
+                                <label for="inputAddress " class="form-label ">Address</label>
+                                <input type="text " class="form-control " id="inputAddress " placeholder="1234 Main St ">
+                            </div>
+                            <div class="col-12 ">
+                                <label for="inputAddress2 " class="form-label ">Address 2</label>
+                                <input type="text " class="form-control " id="inputAddress2 " placeholder="Apartment, studio, or floor ">
+                            </div>
+                            <div class="col-md-12 ">
+                                <label for="inputCity " class="form-label ">Subject</label>
+                                <input type="text " class="form-control " id="inputCity ">
+                            </div>
+                            <div class="col-md-12 ">
+                                <label for="inputState " class="form-label ">Message</label>
+                                <textarea name=" " id=" " cols="30 " rows="0 " class="form-control "></textarea>
+                            </div>
+
+                            <div class="col-12 ">
+                                <button type="submit " class="btn btn-primary ">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br><br>
+
+
+
+    </section>
+    <div class="copyright ">
+        <div class="container ">
+            <p>© 2021 Global Brand. All rights reserved | Design by
+                <a href="https://jabzz.online ">Javad</a>
+            </p>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="recipient-name" class="col-form-label">Recipient Name:</label>
+                            <input type="text" class="form-control" id="recipient-name">
+                        </div>
+                        <div class="dropdown">
+                            <label for="recipient-name" class="col-form-label">  Which therapy ?</label>
+
+                            <select name="" id="therapy" class="form-control"> 
+                                <option>Swedish massage</option>
+                                <option>Deep Tissue Massage</option>
+                                <option>Aromatherapy</option>
+                                <option>Milky Signature Massage</option>
+                                <option> Ayurvedic massage</option>
+                                <option> back neck shoulders massage</option>
+                                <option> Relaxation massage</option>
+                            </select>
+                        </div><br>
+                        <div class="dropdown">
+
+                            <label for="recipient-name" class="col-form-label"> Which Districts you have located ?</label>
+                            <select name="" id="input" onchange="random_function()" class="form-control"> 
+                              <option selected></option>
+                                <option>Kasaragod</option>
+                                <option> Kannur</option>
+                                <option>Wayanadu</option>
+                                <option>Kozhikode</option>
+                                <option> Malappuram</option>
+                                <option> Palakkad</option>
+                                <option> Thrissur</option>
+                                <option> Ernakulam</option>
+                                <option> Idukki</option>
+                                <option>Kottayam</option>
+                                <option>Pathanamthitta</option>
+                                <option> Alappuzha</option>
+                                <option> Kollam</option>
+                                <option> Thiruvananthapuram</option>
+                            </select>
+
+                        </div><br>
+                        <div class="mb-3">
+                            <label for="message-text" class="col-form-label">Assembly constituency (മണ്ഡലം )</label>
+                            <select name="" class="form-control" id="output" onchange="random_function1()"> 
+                                 
+                            </select>
+                        </div>
+
+
+                        <div class="mb-3">
+                            <label for="message-text" class="col-form-label">Phone Number</label>
+                            <input type="number" class="form-control" id="phone">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="message-text" class="col-form-label">Schedule date</label>
+                            <input type="datetime-local" class="form-control" id="date">
+                        </div>
+
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary" onclick="gotowhatsapp()">Send message</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        function random_function() {
+            var a = document.getElementById("input").value;
+            if (a === "Kasaragod") {
+                var arr = ["Manjeshwaram", "Kasaragod", "Udma", "Kanhangad", "Thrikaripur"];
+            } else if (a === "Kannur") {
+                var arr = ["Payyanur", "Kalliasseri", "Taliparamba", "Irikkur", "Azhikode", "Kannur", "Dharmadom", "Thalassery", "Kuthuparamba", "Mattanur", "Peravoor"];
+            } else if (a === "Wayanadu") {
+                var arr = ["Mananthavad", "Sulthan Bathery", "Kalpetta"];
+            } else if (a === "Kozhikode") {
+                var arr = ["Vatakara", "Kuttiady", "Nadapuram", "Koyilandy", "Perambra", "Balussery", "Elathur", "Kozhikode North", "Kozhikode South", "Beypore", "Kunnamangalam", "Koduvally", "Thiruvambady"];
+            } else if (a === "Malappuram") {
+                var arr = ["Kondotty ", "Eranad ", "Nilambur ", "Wandoor", "Manjeri", "Perinthalmanna", "Mankada", "Malappuram", "Vengara", "Vallikkunnu", "Tirurangadi", "Tanur", "Tirur", "Kottakkal", "Thavanur", "Ponnani"];
+            } else if (a === "Palakkad") {
+                var arr = ["Thrithala ", "Pattambi ", "Shornur ", "Ottapalam", "Kongad", "Mannarkkad", "Malampuzha", "Palakkad", "Tarur", "Chittur", "Nenmara", "Alathur"];
+            } else if (a === "Thrissur") {
+                var arr = ["Chelakkara ", "Kunnamkulam ", "Guruvayur ", "Manalur", "Wadakkanchery", "Ollur", "Thrissur", "Nattika", "Kaipamangalam", "Irinjalakuda", "Puthukkad", "Chalakudy", "Kodungallur"];
+            } else if (a === "Ernakulam") {
+                var arr = ["Perumbavoor ", "Angamaly ", "Aluva ", "Kalamassery", "Paravur", "Vypin", "Kochi", "Thrippunithura", "Ernakulam", "Thrikkakara", "Kunnathunad", "Piravom", "Muvattupuzha", "Kothamangalam"];
+            } else if (a === "Idukki") {
+                var arr = ["Devikulam ", "Udumbanchola ", "Thodupuzha ", "Idukki", "Peerumade"];
+            } else if (a === "Kottayam") {
+                var arr = ["Pala", "Kaduthuruthy", "Vaikom", "Ettumanoor", "Kottayam", "Puthuppally", "Changanassery", "Kanjirappally", "Poonjar"];
+            } else if (a === "Alappuzha") {
+                var arr = ["Aroor ", "Cherthala ", "Alappuzha ", "Ambalappuzha", "Kuttanad", "Haripad", "Kayamkulam", "Mavelikara", "Chengannur"];
+            } else if (a === "Pathanamthitta") {
+                var arr = ["Thiruvalla ", "Ranni ", "Aranmula ", "Konni", "Adoor"];
+            } else if (a === "Kollam") {
+                var arr = ["Karunagapally ", "Chavara ", "Kunnathur ", "Kottarakkara", "Pathanapuram", "Punalur", "Chadayamangalam", "Kundara", "Kollam", "Eravipuram", "Chathannoor"];
+            } else if (a === "Thiruvananthapuram") {
+                var arr = ["Varkala ", "Attingal ", "Chirayinkeezhu ", "Nedumangad", "Vamanapuram", "Kazhakootam", "Vattiyoorkavu", "Thiruvananthapuram", "Nemom", "Aruvikkara", "Parassala", "Kattakkada", "Kovalam", "Neyyattinkara", "Kovalam"];
+            }
+
+            var string = "";
+
+            for (i = 0; i < arr.length; i++) {
+                string = string + "<option value=" + arr[i] + ">" + arr[i] + "</option>";
+            }
+            document.getElementById("output").innerHTML = string;
+        }
+
+        function gotowhatsapp() {
+
+            var name = document.getElementById("recipient-name").value;
+            var therapy = document.getElementById("therapy").value;
+            var dist = document.getElementById("input").value;
+            var output = document.getElementById("output").value;
+            var phone = document.getElementById("phone").value;
+            var date = document.getElementById("date").value;
+
+            var url = "https://wa.me/918086527711?text=" +
+                "Name: " + name + "%0a" +
+                "therapy: " + therapy + "%0a" +
+                "district: " + dist + "%0a" +
+                "Assembly: " + output + "%0a" +
+                "phone: " + phone + "%0a" +
+                "date: " + date;
+
+            window.open(url, '_blank').focus();
+        }
+
+        $("#submit-form").submit((e) => {
+            e.preventDefault()
+            $.ajax({
+                url: "https://script.google.com/macros/s/AKfycbzvCKOZild5NtYziucSAsSWGe1m5hlwaIm81jhUy5sGvqJMYcnOKlOXoif99mlRWGC9Cg/exec",
+                data: $("#submit-form").serialize(),
+                method: "post",
+                success: function(response) {
+                    alert("Form submitted successfully")
+                    window.location.reload()
+                        //window.location.href="https://google.com"
+                },
+                error: function(err) {
+                    alert("Something Error")
+
+                }
+            })
+        })
+    </script>
+
+</body>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js "></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js "></script>
+<script type="text/javascript" src="slick/slick.min.js "></script>
+</body>
+
+
+
+</html>
